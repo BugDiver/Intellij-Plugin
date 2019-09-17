@@ -18,6 +18,7 @@ public class GaugeConfig extends SettingsEditor<ApplicationConfiguration> {
     private JTextField gaugePath;
     private JTextField homePath;
     private JCheckBox useIntelliJTestRunner;
+    private JTextField encyptionCipher;
 
     public GaugeConfig() {
         gaugeChooser.addActionListener(e -> setPath(gaugePath, true));

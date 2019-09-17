@@ -303,6 +303,20 @@
             <className>com.thoughtworks.gauge.intention.ConvertToStaticArgIntention</className>
             <descriptionDirectoryName>ConvertToStaticArgIntention</descriptionDirectoryName>
         </intentionAction>
+
+        <!--Param encryption intention-->
+
+        <intentionAction>
+            <category>Gauge</category>
+            <className>com.thoughtworks.gauge.intention.EncryptArgIntention</className>
+            <descriptionDirectoryName>EncryptArgIntention</descriptionDirectoryName>
+        </intentionAction>
+        <intentionAction>
+            <category>Gauge</category>
+            <className>com.thoughtworks.gauge.intention.DecryptArgIntention</className>
+            <descriptionDirectoryName>DecryptArgIntention</descriptionDirectoryName>
+        </intentionAction>
+
         <webBrowserUrlProvider implementation="com.thoughtworks.gauge.markdownPreview.GaugeWebBrowserPreview"/>
     </extensions>
 
